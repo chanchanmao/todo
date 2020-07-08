@@ -1,0 +1,116 @@
+html {
+    /* background: #1e5799;
+    background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+    background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+    background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+    background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+    background-attachment: fixed; */
+    /* background: #e3f6ff; */
+    
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 40px;
+    color:#048fd0; /* keep this color */
+    letter-spacing: 4px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #05a9f6; /* #89CFF0 */
+    font-weight: normal;
+    text-align: center;
+}
+
+h3 {
+    color: #40E0D0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url('binder\ paper.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+    color: #048fd0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+.navList {
+    /* border-bottom: 1px solid #e3f6ff; */
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: #e3f6ff; */
+    background-color: white;
+}
+
+.navList li {
+    float: right;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.navList a {
+    /* color: #1e5799; */
+    color: #0481bc;
+    /* color: #96c0eb; */
+    padding: 14px 22px;
+    text-decoration: none;
+    display: block;
+    /* transition: .3s; */
+    white-space: nowrap;
+}
+
+.navList a:hover {
+    background-color: #e3f6ff;
+    color: #036796;
+
+    /* color: #0481bc;
+    background-color: white; */
+}
+
+.navList > li {
+    position: relative;
+}
+
+.navList > li > div {
+    visibility: hidden;
+    position: absolute;
+    background-color: #89cff0;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: .1s;
+    opacity: 0;
+}
+
+.navList > li:hover > div {
+    visibility: visible;
+    opacity: 1;
+}
