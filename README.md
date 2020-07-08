@@ -1,8 +1,3 @@
-# Content
+# To Do or Not To Do
 
-- **React** | [Blog](https://www.codementor.io/@rajjeet/step-by-step-create-a-react-project-from-scratch-11s9skvnxv) | [GitHub](https://github.com/rajjeet/react-quick-start/tree/master) 
-    - React-Redux | [Blog](https://www.codementor.io/@rajjeet/step-by-step-how-to-add-redux-to-a-react-app-11tcgslmvi) | [GitHub](https://github.com/rajjeet/react-quick-start/tree/react-redux)
-        - Redux-Thunk | [Blog](https://www.codementor.io/@rajjeet/add-thunk-to-your-react-redux-project-for-async-actions-using-these-4-lines-of-code-11w6kntp46) | [GitHub](https://github.com/rajjeet/react-quick-start/tree/redux-thunk)
-        - Redux-Saga | [Blog](https://www.codementor.io/@rajjeet/add-thunk-to-your-react-redux-project-for-async-actions-using-these-4-lines-of-code-11w6kntp46) | [GitHub](https://github.com/rajjeet/react-quick-start/tree/redux-saga)
-
-
+“To Do or Not To Do” is an online organizer to assist users in keeping track of lists or tasks. The goal of this project is to act as an efficient platform for users to have all of their lists in one place and to be easily accessible by any user that has internet access. As a user, I can create groupings of lists and within each group, I can have multiple numbers of lists. For example, I can have a group called “Groceries.” Within “Groceries,” I can have separate lists for Costco, Target, Trader Joes, etc. This same concept can be applied towards school work, where one group can be for “Math Class,” and in that group, I can have lists for homework assignments, test dates, project ideas, etc. There are no functions for a public user, but as a logged in user, I can access my lists and groups because the data for each individual user must be stored separately and uniquely in the backend database.
