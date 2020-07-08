@@ -4,7 +4,7 @@
 
 # Commands
 
-| Command                   | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `npm install`             | Install Dependencies                                   |
-| `npm start`               | Runs site on localhost:8080                            |
+| Command                   | Description                                                  |
+| ------------------------- | ------------------------------------------------------------ |
+| `npm install`             | Install Dependencies                                         |
+| `npm start`               | Runs app on http://localhost:8080                            |
